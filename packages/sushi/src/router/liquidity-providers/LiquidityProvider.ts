@@ -6,8 +6,15 @@ import type { PoolCode } from '../pool-codes/index.js'
 export enum LiquidityProviders {
   SushiSwapV2 = 'SushiSwapV2',
   SushiSwapV3 = 'SushiSwapV3',
+  BackerySwap = 'BackerySwap',
+  MdexSwap = 'MdexSwap',
+  BabySwap = 'BabySwap',
+  BabyDogeSwap = 'BabyDogeSwap',
+  MelegaSwap = 'MelegaSwap',
+  NomiSwap = 'NomiSwap',
   UniswapV2 = 'UniswapV2',
   UniswapV3 = 'UniswapV3',
+
   Trident = 'Trident',
   QuickSwap = 'QuickSwap',
   ApeSwap = 'ApeSwap',
